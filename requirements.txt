@@ -3,3 +3,4 @@ pygad
 numpy
 pandas
 black[jupyter]
+matplotlib==3.3.4

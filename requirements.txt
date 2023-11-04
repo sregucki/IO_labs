@@ -5,3 +5,6 @@ pandas
 black[jupyter]
 matplotlib==3.3.4
 aco
+pyswarms
+scikit-learn
+scipy

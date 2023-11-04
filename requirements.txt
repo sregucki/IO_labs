@@ -3,8 +3,9 @@ pygad
 numpy
 pandas
 black[jupyter]
-matplotlib==3.3.4
+matplotlib
 aco
 pyswarms
 scikit-learn
 scipy
+seaborn

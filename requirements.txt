@@ -9,3 +9,5 @@ pyswarms
 scikit-learn
 scipy
 seaborn
+keras
+tensorflow

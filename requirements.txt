@@ -11,3 +11,8 @@ scipy
 seaborn
 keras
 tensorflow
+visualkeras
+pydot 
+graphviz
+ann_visualizer
+keras_sequential_ascii

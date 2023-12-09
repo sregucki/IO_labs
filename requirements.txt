@@ -16,3 +16,7 @@ pydot
 graphviz
 ann_visualizer
 keras_sequential_ascii
+nltk
+wordcloud
+text2emotion
+emoji==1.7.0

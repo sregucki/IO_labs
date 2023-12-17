@@ -24,3 +24,6 @@ simpful
 tweety
 selenium
 scikit-fuzzy
+diffusers
+torch
+transformers

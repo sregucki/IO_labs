@@ -1,9 +1,8 @@
 .idea
 notebooks/.ipynb_checkpoints
-notebooks/__pycache__
 notebooks/data/dogs-cats-mini
 notebooks/data/covid_19_tweets.csv
-notebooks/gan/__pycache__
 notebooks/gan/generator_model*.h5
 notebooks/gan/generated_plot*.png
 notebooks/generated
+__pycache__

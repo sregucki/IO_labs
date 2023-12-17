@@ -2,3 +2,5 @@
 notebooks/.ipynb_checkpoints
 notebooks/__pycache__
 notebooks/data/dogs-cats-mini
+notebooks/data/covid_19_tweets.csv
+notebooks/gan/__pycache__

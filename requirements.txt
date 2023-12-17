@@ -20,3 +20,7 @@ nltk
 wordcloud
 text2emotion
 emoji==1.7.0
+simpful
+tweety
+selenium
+scikit-fuzzy

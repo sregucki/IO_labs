@@ -8,7 +8,7 @@ from tensorflow.keras.layers import LSTM
 from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.utils import to_categorical
 # load ascii text and covert to lowercase
-filename = "wonderland.txt"
+filename = "rnn/wonderland.txt"
 raw_text = open(filename, 'r', encoding='utf-8').read()
 raw_text = raw_text.lower()
 # create mapping of unique chars to integers
@@ -57,4 +57,4 @@ filepath="big-token-model-{epoch:02d}-{loss:.4f}.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
 callbacks_list = [checkpoint]
 # fit the model
-model.fit(X, y, epochs=20, batch_size=128, callbacks=callbacks_list)
+model.fit(X, y, epochs=5, batch_size=128, callbacks=callbacks_list)

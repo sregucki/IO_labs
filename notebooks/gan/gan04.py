@@ -5,7 +5,7 @@ from keras.layers import Reshape
 from keras.layers import Conv2D
 from keras.layers import Conv2DTranspose
 from keras.layers import LeakyReLU
-from keras.utils.vis_utils import plot_model
+from keras.src.utils.vis_utils import plot_model
 
 # define the standalone generator model
 def define_generator(latent_dim):

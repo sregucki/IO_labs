@@ -6,7 +6,7 @@ from keras.layers import Conv2D
 from keras.layers import Flatten
 from keras.layers import Dropout
 from keras.layers import LeakyReLU
-from keras.utils.vis_utils import plot_model
+from keras.src.utils.vis_utils import plot_model
 
 # define the standalone discriminator model
 def define_discriminator(in_shape=(28,28,1)):

@@ -27,3 +27,4 @@ scikit-fuzzy
 diffusers
 torch
 transformers
+keras-vis

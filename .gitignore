@@ -1,4 +1,5 @@
 .idea
+.venv
 notebooks/.ipynb_checkpoints
 notebooks/data/dogs-cats-mini
 notebooks/data/covid_19_tweets.csv
@@ -6,3 +7,6 @@ notebooks/gan/generator_model*.h5
 notebooks/gan/generated_plot*.png
 notebooks/generated
 __pycache__
+*.png
+*.jpg
+*.hdf5
